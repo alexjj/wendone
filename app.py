@@ -1,7 +1,7 @@
 import streamlit as st
 import datetime
 
-target_datetime = datetime.datetime(2025, 2, 20, 13, 00, 0)
+target_datetime = datetime.datetime(2025, 2, 20, 12, 30, 0)
 current_datetime = datetime.datetime.now()
 
 st.set_page_config(layout='centered', page_title="wen done", page_icon=":older_man:")
